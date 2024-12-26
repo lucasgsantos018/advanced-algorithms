@@ -8,10 +8,10 @@ Here is the standard structure of the directories for each problem:
 📂 cpp-project  
 ┣ 📂src  
 ┃ ┣ 📜 main.cpp – The main file where the execution begins  
-┃ ┣ 📜 utils.cpp – Implementation of utility functions  
-┃ ┗ 📜 utils.h – Header file with declarations for utility functions  
+┃ ┣ 📜 utilities.cpp – Implementation of utility functions  
+┃ ┗ 📜 utilities.h – Header file with declarations for utility functions  
 ┣ 📂include  
-┃ ┗ 📜 utils.h – Contains header files  
+┃ ┗ 📜 utilities.h – Contains header files  
 ┣ 📂build  
 ┃ ┗ 📜 This directory will store all the compiled files and executables  
 ┣ 📂docs  
