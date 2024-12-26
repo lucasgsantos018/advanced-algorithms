@@ -5,7 +5,7 @@ Welcome to my repository where I tackle various computational problems. Each dir
 Repository Structure
 Here is the standard structure of the directories for each problem:
 
-📂 cpp-project
+📂 cpp-project  
 ┣ 📂src
 ┃ ┣ 📜 main.cpp – The main file where the execution begins
 ┃ ┣ 📜 utils.cpp – Implementation of utility functions
