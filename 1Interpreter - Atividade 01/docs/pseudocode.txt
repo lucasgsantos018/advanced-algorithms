@@ -1,0 +1,10 @@
+Inicializar registradores (10) com 0
+Ler RAM da entrada padrão (até 1000 posições)
+Inicializar contador de instruções em 0
+Enquanto não encontrar instrução 100:
+   a. Obter instrução da RAM[PC]
+   b. Decodificar instrução
+   c. Executar operação correspondente
+   d. Incrementar PC (a menos que seja jump)
+   e. Incrementar contador de instruções
+Retornar contador de instruções

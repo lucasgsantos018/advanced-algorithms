@@ -1,0 +1,8 @@
+Ler todos os fragmentos para um vetor
+Calcular comprimento alvo: (soma de todos os fragmentos) * 2 / (quantidade de fragmentos)
+Para cada par de fragmentos:
+    a. Concatenar par A+B e B+A
+    b. Se algum resultado tem comprimento alvo, adicionar como candidato
+Contar ocorrências de cada candidato
+Retornar o candidato mais frequente (em caso de empate, o lexicograficamente menor)
+Lidar com múltiplos casos de teste e formatação de saída

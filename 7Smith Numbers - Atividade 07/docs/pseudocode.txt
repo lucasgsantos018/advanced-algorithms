@@ -1,0 +1,12 @@
+Para cada caso de teste:
+   a. Ler número n
+   b. Encontrar o menor Smith number > n:
+      i. Verificar cada número k = n+1, n+2,
+      ii. Para cada k:
+          - Se k não é primo
+          - Se soma dos dígitos de k == soma dos dígitos dos seus fatores primos
+          - Retornar k
+Funções auxiliares:
+   a. is_prime(n): Verifica primalidade
+   b. sum_digits(n): Soma dígitos de n
+   c. sum_prime_factors_digits(n): Soma dígitos dos fatores primos

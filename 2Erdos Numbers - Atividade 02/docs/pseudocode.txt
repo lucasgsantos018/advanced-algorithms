@@ -1,0 +1,19 @@
+Inicializar mapa de colaborações vazio
+Inicializar mapa de números de Erdos vazio
+Ler número de cenários da entrada
+
+Para cada cenário:
+   a. Ler número de papers (P) e número de consultas (N)
+   b. Para cada paper:
+      1. Extrair lista de autores
+   c. Calcular números de Erdos:
+      1. Iniciar com "Erdos, P" no nível 0
+      2. Para cada nível:
+         i. Para cada autor no nível atual:
+            - Atribuir número de Erdos (nível atual)
+            - Adicionar coautores não visitados ao próximo nível
+         ii. Avançar para o próximo nível
+   d. Para cada consulta:
+      1. Normalizar nome (remover pontos/ espaços extras)
+      2. Buscar no mapa de números de Erdos
+      3. Imprimir resultado (número ou "infinity")

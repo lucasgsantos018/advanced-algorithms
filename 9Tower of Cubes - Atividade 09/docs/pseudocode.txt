@@ -1,0 +1,12 @@
+Para cada caso de teste:
+   a. Ler número de cubos N
+   b. Ler cores das 6 faces de cada cubo
+Construir grafo implícito:
+   - Nós representam (cubo, face)
+   - Arestas conectam quando cores coincidem
+Programação Dinâmica:
+   - dp[i][j] = altura máxima terminando no cubo i com face j no topo
+   - Para cada cubo i, face j:
+     * Verificar todos cubos anteriores k
+     * Se cor da face j = cor da face oposta em k:
+       - Atualizar dp[i][j] se encontrar caminho mais longo

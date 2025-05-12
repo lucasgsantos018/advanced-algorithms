@@ -1,0 +1,16 @@
+DP:
+Converter comprimento da balsa para cm
+Tabela DP[i][l] armazena máximo r possível com i carros e l no porto
+Inicializar DP[0][0] = 0
+
+Para cada carro:
+   Para cada estado (i, l):
+      Se colocar no porto (l + car_len <= max):
+         Atualiza DP[i+1][l+car_len]
+      Se colocar no estibordo (r + car_len <= max):
+         Atualiza DP[i+1][l]
+
+Reconstrução:
+Encontrar i máximo onde existe DP[i][l] válido
+Voltar nas decisões para determinar port/starboard
+Imprimir na ordem inversa

@@ -1,0 +1,9 @@
+Para cada caso de teste:
+   a. Ler n (potência) e k (número de variáveis)
+   b. Ler k expoentes (n1, n2, ..., nk) onde n1 + ... + nk = n
+Calcular coeficiente multinomial:
+   a. Coeficiente = n! / (n1! * n2! * ... * nk!)
+Implementação eficiente:
+   a. Pré-computar fatoriais até 12! (limite do problema)
+   b. Dividir fatorial do numerador pelo produto dos fatoriais dos expoentes
+Saída: Imprimir o coeficiente para cada caso

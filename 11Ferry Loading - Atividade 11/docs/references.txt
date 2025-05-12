@@ -1,0 +1,3 @@
+Competitive Programming 3 - Steven Halim
+UVa Online Judge Problem 10261 - Ferry Loading
+Dynamic Programming for Coding Interviews

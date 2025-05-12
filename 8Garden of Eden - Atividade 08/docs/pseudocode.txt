@@ -1,0 +1,8 @@
+Backtracking para verificar se é Garden of Eden:
+   a. Gerar todos possíveis estados anteriores (recursivamente)
+   b. Para cada célula, tentar valores 0 e 1
+   c. Verificar se algum estado anterior gera o estado atual
+Se nenhum estado anterior for encontrado:
+   a. É Garden of Eden
+Caso contrário:
+   a. Estado é alcançável

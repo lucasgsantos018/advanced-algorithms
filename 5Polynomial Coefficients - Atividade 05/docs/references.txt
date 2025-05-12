@@ -1,0 +1,2 @@
+Combinatorial Algorithms - Kreher & Stinson
+UVa Online Judge Problem 10105 - Polynomial Coefficients

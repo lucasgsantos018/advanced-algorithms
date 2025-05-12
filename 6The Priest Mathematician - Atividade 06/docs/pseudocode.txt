@@ -1,0 +1,13 @@
+Pré-computar todos os resultados até N=10000:
+   a. Inicializar DP[0] = 0, DP[1] = 1
+   b. Para cada n de 2 a 10000:
+      i. Encontrar k ótimo (usando k anterior como ponto de partida)
+      ii. Calcular movimentos = 2*DP[k] + (2^(n-k)) - 1
+      iii. Armazenar em DP[n]
+Para cada caso de teste:
+   a. Ler N
+   b. Retornar DP[N]
+Estratégia matemática:
+   - Usa 4 pinos (torre de Hanoi modificada)
+   - Encontra k que minimiza movimentos
+   - Fórmula recursiva: T(n) = 2*T(k) + (2^(n-k)) - 1

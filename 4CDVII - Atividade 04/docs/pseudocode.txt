@@ -1,0 +1,14 @@
+Ler tarifas horárias (24 valores)
+Ler todos registros e converter para estrutura TollRecord
+   - Converter tempo para minutos desde início do mês
+Ordenar registros:
+   - Primário: por placa (ordem alfabética)
+   - Secundário: por tempo (cronológico)
+Processar registros ordenados:
+   a. Parear 'enter' com próximo registro do mesmo veículo
+   b. Se for 'exit', calcular custo:
+      - Distância × tarifa da hora de entrada
+      + $1 por viagem
+Para cada veículo:
+   - Somar $2 de taxa de conta
+   - Gerar saída ordenada por placa

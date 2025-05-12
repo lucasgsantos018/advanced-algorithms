@@ -1,0 +1,25 @@
+modelagem do grafo:
+   - Cidades → Vértices
+   - Estradas → Arestas com pesos (capacidades)
+
+algoritmo (Dijkstra):
+   Inicialização:
+   - Capacidade[início] = ∞
+   - Outras cidades = 0
+
+loop principal:
+   a. Seleciona cidade não visitada com MAIOR capacidade atual
+   b. Para cada vizinho:
+      - Calcula novo gargalo (mínimo entre capacidade atual e aresta)
+      - Atualiza se for melhor que o conhecido
+
+calculo de viagens:
+   - Viagens = teto(Turistas / (Gargalo - 1))
+   (Onde -1 desconta a vaga do guia)
+
+resumo do fluxo:
+   Para cada caso de teste:
+   a. Constrói grafo
+   b. Roda algoritmo
+   c. Calcula viagens
+   d. Imprime resultado

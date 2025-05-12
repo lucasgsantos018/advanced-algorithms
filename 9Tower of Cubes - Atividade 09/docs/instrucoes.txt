@@ -1,0 +1,8 @@
+Para compilar, basta usar o Makefile
+
+make -> Compila o programa
+make test -> Executa o programa com o arquivo de testes (input.txt), disponível na pasta testes
+
+Ou
+
+Caso queira testar com os outros arquivos de teste, basta executar ./executavel < tests/inputX.txt
